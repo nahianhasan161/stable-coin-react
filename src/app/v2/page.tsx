@@ -70,12 +70,11 @@ export default function Home() {
                 Populer cryptocurrencies
               </h1>
 
-              <p className="flex whitespace-nowrap items-center text-xs sm:text-base">
-                view more markets{" "}
+              <p className="flex  items-center text-xs sm:text-base sm:mr-10">
+                view more markets
                 <span>
-                  {" "}
-                  <RiArrowRightSLine />{" "}
-                </span>{" "}
+                  <RiArrowRightSLine />
+                </span>
               </p>
             </div>
             <div>
@@ -144,7 +143,7 @@ export default function Home() {
 
           {/* Sing up section */}
 
-          <section className="mt-10 sm:pl-[8rem] pl-[5rem] ">
+          <section className="mt-10 sm:pl-[8rem] px-8 ">
             <h1 className="font-semibold text-xl sm:text-2xl text-black_100 ">
               Sign Up now to build your own portfolio for free!
             </h1>
@@ -154,7 +153,7 @@ export default function Home() {
             </button>
           </section>
 
-          <section className="mt-10 sm:pl-[8rem] pl-[5rem] ">
+          <section className="mt-10 sm:pl-[8rem] px-8 ">
             <div>
               <div className="flex md:flex-row flex-col items-center justify-between  pb-3 pr-3">
                 <h1 className="text-bold text-[40px] text-black_100 ">
@@ -224,7 +223,7 @@ export default function Home() {
             </div>
           </section>
           {/* Daily Reward Section */}
-          <section className=" py-3 pr-3 pl-10 sm:text-start text-center">
+          <section className=" py-3 pr-3 sm:pl-10 px-8 sm:text-start text-center">
             <div className=" ">
               <h1 className="font-bold sm:text-[40px] text-2xl  text-black_100 ">
                 Earn daily rewards on your idle tokens
@@ -233,7 +232,7 @@ export default function Home() {
             <h2 className="text-offwhite_200 text-xl">
               Simple & Secure.Populer coins and start earning
             </h2>
-            <div>
+            <div className="flex sm:flex-row flex-col justify-center sm:justify-start items-center">
               <RewardCard
                 title="USDT"
                 image="/vercel.svg"
