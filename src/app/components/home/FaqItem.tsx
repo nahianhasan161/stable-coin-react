@@ -14,7 +14,7 @@ interface FaqItemProps {
 const FaqItem: React.FC<FaqItemProps> = ({ faqData }) => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleAccordion = (key: number) => {
+  const toggleAccordion = () => {
     setIsOpen((prevIsOpen) => !prevIsOpen);
   };
 
@@ -23,7 +23,7 @@ const FaqItem: React.FC<FaqItemProps> = ({ faqData }) => {
       <button
         className="w-full text-left font-semibold text-xl focus:outline-none"
         onClick={() => {
-          toggleAccordion(key);
+          toggleAccordion();
         }}
       >
         {Faq.question}
