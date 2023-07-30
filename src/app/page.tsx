@@ -65,7 +65,7 @@ export default function Home() {
               title="Convert Stablecoin"
               btn="0 fees"
               info="0 transection fee for BUSD/USD"
-              image="/bnbicon.png"
+              image="/coinroundicon.png"
               action="Convert to BUSD >"
               className="flex-1"
             />
@@ -73,7 +73,7 @@ export default function Home() {
               title="Convert Stablecoin"
               btn="0 fees"
               info="0 transection fee for BUSD/USD"
-              image="/bnbicon.png"
+              image="/coinroundicon.png"
               action="Convert to BUSD >"
               className="flex-1"
             />
@@ -81,7 +81,7 @@ export default function Home() {
               title="Convert Stablecoin"
               btn="0 fees"
               info="0 transection fee for BUSD/USD"
-              image="/bnbicon.png"
+              image="/coinroundicon.png"
               action="Convert to BUSD >"
               className="flex-1"
             />
