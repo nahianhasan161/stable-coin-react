@@ -13,7 +13,7 @@ export default function Home() {
       <div>
         {/* landing section */}
         {/* TODO:LAnding Image Needed */}
-        <div className="flex gap-3 p-10 sm:text-start text-center items-center ml-[30px]  sm:ml-0">
+        <div className="flex sm:flex-row flex-col  gap-3 sm:p-10 pr-[50px] pt-5  text-center sm:text-start  items-center ml-[30px]  ">
           <div className="basis-1/2 ">
             <h1 className="font-semibold lg:text-5xl md:text-4xl sm:text-3 text-xl tracking-wider text-[#1e2329] max-w-[40rem]">
               Buy, trade ,And hold 360 cryptocurrencies on Binance
