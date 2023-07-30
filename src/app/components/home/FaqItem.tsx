@@ -12,23 +12,29 @@ interface FaqItemProps {
 }
 
 const FaqItem: React.FC<FaqItemProps> = ({ faqData }) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [showList, setShowList] = useState<number[]>([]);
 
-  const toggleAccordion = () => {
-    setIsOpen((prevIsOpen) => !prevIsOpen);
+  const toggleAccordion = (key: number) => {
+    if (showList.includes(key)) {
+      setShowList((prevList) => prevList.filter((num) => num !== key));
+    } else {
+      setShowList((prevList) => [...prevList, key]);
+    }
   };
-
+  console.log(showList);
   return faqData.map((Faq, key) => (
     <div className="border-b border-gray-200 py-4" key={key}>
       <button
         className="w-full text-left font-semibold text-xl focus:outline-none"
         onClick={() => {
-          toggleAccordion();
+          toggleAccordion(key);
         }}
       >
         {Faq.question}
       </button>
-      {isOpen && <p className="mt-2 text-gray-700">{Faq.answer}</p>}
+      {showList.includes(key) && (
+        <p className="mt-2 text-gray-700">{Faq.answer}</p>
+      )}
     </div>
   ));
 };
