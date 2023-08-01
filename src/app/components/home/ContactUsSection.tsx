@@ -12,7 +12,7 @@ export default function ContactUsSection (props: IAppProps) {
   return (
     <>
     <section className="mt-5 md:px-10 ">
-     <div className="px-10 sm:flex items-center justify-between">
+     <div className="px-10 flex flex-col">
             <HeadingTitle title={props.title} />
             
           <div className='my-10  space-y-10'>
