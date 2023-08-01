@@ -2,7 +2,7 @@
 import React from "react";
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
-import SmallNav from "./Navbar/SmallNav";
+
 const Navbar: React.FC = () => {
   const [isActive, setIsActive] = useState(false);
   return (
