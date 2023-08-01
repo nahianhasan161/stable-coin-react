@@ -22,15 +22,15 @@ export default function Home() {
   return (
     <main className=" min-h-screen bg-yallow_50 text-black_100 ">
       <div>
-        <div className="flex gap-3 sm:p-10 p-4 mobile_landing landing md:h-[70vh] md:px-10 h-[320px] sm:h-[423px]">
-          <div className="hidden sm:block lg:basis-[65%] sm:basis-[76%] font-semibold pb-10 md:px-10 mt-[5rem]">
+        <div className="flex gap-3 lg:p-10 p-4 mobile_landing landing md:h-[50vh] lg:h-[70vh] md:px-10 h-[320px] sm:h-[423px]">
+          <div className="hidden sm:block lg:basis-[65%] sm:basis-[76%] font-semibold pb-10 md:px-10 lg:mt-[5rem]">
             <h1 className=" lg:text-[56px] md:text-3xl text-2xl sm:leading-[72px]  md:max-w-[40rem] ">
               BUSD (Binance USD)
             </h1>
-            <h3 className="lg:text-[32px] md:text-xl leading-[32px] text-yallow_400  mt-4 font-medium">
+            <h3 className="lg:text-[32px] md:text-xl leading-[32px] text-yallow_400  md:mt-4 font-medium">
               Buy U.S Dollers(BUSD) through Binance Today!
             </h3>
-            <p className="leading-[24px]  text-offwhite_100 font-normal mt-4">
+            <p className="leading-[24px]  text-offwhite_100 font-normal md:mt-4">
               BUSD is 1:1 USD-backed stablecoin aproved by the New York State <br className="hidden lg:block"></br>
               Department of Financial Services(NYDFS) and issued in
               partnershiped with paxos
@@ -54,7 +54,7 @@ export default function Home() {
           </div>
         </div>
         {/* Titles */}
-        <section className="mt-5 px-10">
+        <section className="sm:mt-5 px-10">
           <div className="flex md:flex-row text-center flex-col gap-10  justify-around items-center ">
             <TitlesSection title="$38B" subtitle="Market Cap Today" />
             <TitlesSection title="6.7M" subtitle="# of Holders" />
