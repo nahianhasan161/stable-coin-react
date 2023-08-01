@@ -8,7 +8,8 @@ module.exports = {
     extend: {
       colors:{
         offwhite_100:"#707A8A",
-        yallow_400:"#F0B90B"
+        yallow_400:"#F0B90B",
+        yallow_500:"#FCD535"
       },
       backgroundImage: {
         'gradient-text': 'linear-gradient(180deg, #F0B90B 33.33%, #FBDA3C 100%)',
