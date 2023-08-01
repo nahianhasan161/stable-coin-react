@@ -28,7 +28,7 @@ const ContentCard: React.FC<ContentCardProps> = ({
             imageFloat === "left" ? "lg:col-span-6 order-1" : "lg:col-span-6"
           }`}
         >
-          <Image src={image} alt="Content_Image1" height={200} width={600} className='min-w-[15rem]' />
+          <Image src={image} alt="Content_Image1" height={200} width={600} className='min-w-[15rem] sm:min-w-[24rem]' />
         </div>
         <div className="col-span-6 max-w-[29rem] flex flex-col items-center justify-center">
           <div>

@@ -2,12 +2,41 @@
 import React from "react";
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
-
+import Image from "next/image";
 const Navbar: React.FC = () => {
   const [isActive, setIsActive] = useState(false);
+  const [isHidden, setIsHidden] = useState(false);
   return (
     <div>
-     
+      {/* download smallnav */}
+     <div className={`${isHidden && "hidden"} sm:hidden h-[60px] w-full bg-dark bg-[#292D32]`}>
+        <ul className="flex p-1 justify-between items-center">
+          <div className="flex gap-3">
+
+          <li>
+            <Image src="/logo/binance_icon.svg"
+             alt="bnb_icon"
+              height={50} width={50}
+              className="bg-yallow_400"
+              ></Image>
+          </li>
+          <li className="space-y-1 text-white">
+            <h3>Binance App</h3>
+            <h4>Secure,first and eligent</h4>
+          </li>
+              </div>
+          <div className="flex gap-3">
+          <li className="rounded-full bg-yallow_500 p-2">
+          <svg className="w-5  " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  ><path d="M19 20H5v2h14v-2zM13 14.5l4.6-4.7 1.5 1.4-7.1 7.1-7.1-7.1 1.4-1.4 4.7 4.7V2h2v12.5z" fill="currentColor"></path></svg>
+          </li>
+
+          <li className="flex items-center text-white" onClick={()=>setIsHidden(true)}>
+          <svg className="w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  ><path d="M13.4 12l6.6 6.6-1.4 1.4-6.6-6.6L5.4 20 4 18.6l6.6-6.6L4 5.4 5.4 4l6.6 6.6L18.6 4 20 5.4 13.4 12z" fill="currentColor"></path></svg>
+          </li>
+          </div>
+          
+        </ul>
+     </div>
       {/*   Mobile Nav */}
       <nav className="bg-white text-sm  md:hidden">
         <ul className="flex flex-row gap-4 items-center justify-between p-3">

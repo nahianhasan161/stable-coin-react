@@ -16,24 +16,284 @@ const LogoSlider: React.FC = () => {
           </div>
           <div className='my-10'>
         <Marquee direction="left" speed={50}  gradient={true}>
+          
+          
+         
           <div className="mx-3 text-center">
-            <Image src="/logo/one.png" alt="logo" height={200} width={200} />
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
           </div>
-          <div className="mx-3">
-            <Image src="/logo/two.png" alt="logo" height={200} width={200} />
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
           </div>
-          <div className="mx-3">
-            <Image src="/logo/three.png" alt="logo" height={200} width={200} />
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
           </div>
-          <div className="mx-3">
-            <Image src="/logo/four.png" alt="logo" height={200} width={200} />
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
           </div>
-          <div className="mx-3">
-            <Image src="/logo/five.png" alt="logo" height={200} width={200} />
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
           </div>
-          <div className="mx-3">
-            <Image src="/logo/eight.png" alt="logo" height={200} width={200} />
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
           </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+          <div className="mx-3 text-center">
+            
+
+            <Image className='w-30' src="/logo/five.png" alt="logo" height={100} width={100} />
+            
+            <h1 className='text-sm md:text-base lg:text-xl  font-semibold mt-3'>Hello</h1>
+          </div>
+        
+         
         </Marquee>
         <p className='sm:hidden block cursor-pointer text-center text-yallow_400 hover:underline underline-yallow_400 whitespace-nowrap'>View More</p>
           </div>

@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       colors:{
         offwhite_100:"#707A8A",
+        yallow_300:"#fcd53b",
         yallow_400:"#F0B90B",
         yallow_500:"#FCD535"
       },
