@@ -9,7 +9,7 @@ const TitlesSection:React.FC<TitlesSectionProps> = ({title,subtitle}) => {
     
     return <div className=' text-black_100 '>
         
-        <h1 className='font-light   text-yallow_500 leading-[80px] md:text-[80px] text-5xl '>{title}</h1>
+        <h1 className='font-light   bg-gradient-text bg-clip-text text-transparent leading-[80px] md:text-[80px] text-5xl '>{title}</h1>
 
         <HeadingTitleMd title={subtitle}/>
         
