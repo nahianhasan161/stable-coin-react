@@ -3,13 +3,15 @@ import React from "react";
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Image from "next/image";
+import {FaSearch} from "react-icons/fa"
+import {BsFillHandThumbsDownFill} from "react-icons/bs"
 const Navbar: React.FC = () => {
   const [isActive, setIsActive] = useState(false);
   const [isHidden, setIsHidden] = useState(false);
   return (
     <div>
       {/* download smallnav */}
-     <div className={`${isHidden && "hidden"} sm:hidden h-[60px] w-full bg-dark bg-[#292D32]`}>
+     <div className={`${isHidden && "hidden"} md:hidden h-[60px] w-full bg-dark bg-[#292D32]`}>
         <ul className="flex p-1 justify-between items-center">
           <div className="flex gap-3">
 
@@ -25,7 +27,7 @@ const Navbar: React.FC = () => {
             <h4>Secure,first and eligent</h4>
           </li>
               </div>
-          <div className="flex gap-3">
+          <div className="flex gap-3 cursor-pointer">
           <li className="rounded-full bg-yallow_500 p-2">
           <svg className="w-5  " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  ><path d="M19 20H5v2h14v-2zM13 14.5l4.6-4.7 1.5 1.4-7.1 7.1-7.1-7.1 1.4-1.4 4.7 4.7V2h2v12.5z" fill="currentColor"></path></svg>
           </li>
@@ -55,7 +57,10 @@ const Navbar: React.FC = () => {
              
             </li>
           </div>
-          <div className="items-center flex gap-4">
+          <div className="items-center flex gap-3">
+            <li className="px-3 py-2  cursor-pointer hover:text-yellow-500 md:hidden">
+              <FaSearch/>
+            </li>
             <li className="px-3 py-2 bg-yellow-500 cursor-pointer hover:opacity-80 rounded">
               Register
             </li>
@@ -71,6 +76,7 @@ const Navbar: React.FC = () => {
           <ul className="">
             <li className="cursor-pointer hover:text-yellow-400 p-3 border">
               Buy Crypto
+              <BsFillHandThumbsDownFill width="50"/>
             </li>
             <li className="cursor-pointer hover:text-yellow-400  p-3 border">
               Earn

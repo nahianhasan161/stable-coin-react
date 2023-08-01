@@ -30,40 +30,50 @@ export default function AttestationSection (props: IAppProps) {
                     2023
                   </li>
 
-                  <li className="hover:text-yallow_150 py-10  rounded cursor-pointer text-offwhite_100">
+                 
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="overflow-x-auto">
+            <div className=" text-sm">
+              <div className="flex gap-3">
+                <ul className="flex gap-12 ml-4 px-10">
+
+                  <li className="hover:text-yallow_150 py-1  rounded cursor-pointer text-offwhite_100 hover:text-yallow_400">
                     Jan
                   </li>
-                  <li className="hover:text-yallow_150 py-10  rounded cursor-pointer text-offwhite_100">
+                  <li className="hover:text-yallow_150 py-1  rounded cursor-pointer text-offwhite_100  hover:text-yallow_400">
                     Feb
                   </li>
-                  <li className="hover:text-yallow_150 py-10  rounded cursor-pointer text-offwhite_100">
+                  <li className="hover:text-yallow_150 py-1  rounded cursor-pointer text-offwhite_100  hover:text-yallow_400">
                     Mar
                   </li>
-                  <li className="hover:text-yallow_150 py-10  rounded cursor-pointer text-offwhite_100">
+                  <li className="hover:text-yallow_150 py-1  rounded cursor-pointer text-offwhite_100  hover:text-yallow_400">
                     Apr
                   </li>
-                  <li className="hover:text-yallow_150 py-10  rounded cursor-pointer text-offwhite_100">
+                  <li className="hover:text-yallow_150 py-1  rounded cursor-pointer text-offwhite_100  hover:text-yallow_400">
                     May
                   </li>
-                  <li className="hover:text-yallow_150 py-10  rounded cursor-pointer text-offwhite_100">
+                  <li className="hover:text-yallow_150 py-1  rounded cursor-pointer text-offwhite_100  hover:text-yallow_400">
                     Jun
                   </li>
-                  <li className="hover:text-yallow_150 py-10  rounded cursor-pointer text-offwhite_100">
+                  <li className="hover:text-yallow_150 py-1  rounded cursor-pointer text-offwhite_100  hover:text-yallow_400">
                     Jul
                   </li>
-                  <li className="hover:text-yallow_150 py-10  rounded cursor-pointer text-offwhite_100">
+                  <li className="hover:text-yallow_150 py-1  rounded cursor-pointer text-offwhite_100  hover:text-yallow_400">
                     Aug
                   </li>
-                  <li className="hover:text-yallow_150 py-10  rounded cursor-pointer text-offwhite_100">
+                  <li className="hover:text-yallow_150 py-1  rounded cursor-pointer text-offwhite_100  hover:text-yallow_400">
                     Sep
                   </li>
-                  <li className="hover:text-yallow_150 py-10  rounded cursor-pointer text-offwhite_100">
+                  <li className="hover:text-yallow_150 py-1  rounded cursor-pointer text-offwhite_100  hover:text-yallow_400">
                     Oct
                   </li>
-                  <li className="hover:text-yallow_150 py-10  rounded cursor-pointer text-offwhite_100">
+                  <li className="hover:text-yallow_150 py-1  rounded cursor-pointer text-offwhite_100  hover:text-yallow_400">
                     Nov
                   </li>
-                  <li className="hover:text-yallow_150 py-10  rounded cursor-pointer text-offwhite_100">
+                  <li className="hover:text-yallow_150 py-1  rounded cursor-pointer text-offwhite_100  hover:text-yallow_400">
                     Dec
                   </li>
                 </ul>
