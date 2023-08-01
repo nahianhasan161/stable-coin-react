@@ -10,6 +10,8 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['react-refresh'],
   rules: {
- 
+    // Add your ESLint rules here
+    '@typescript-eslint/no-unused-vars': 'off', // Disable the unused vars rule
+    'react/prop-types': 'off', // Disable prop-types requirement for React components (optional)
   },
 }
