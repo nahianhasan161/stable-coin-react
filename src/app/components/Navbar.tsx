@@ -4,7 +4,10 @@ import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Image from "next/image";
 import {FaSearch} from "react-icons/fa"
-import {BsFillHandThumbsDownFill} from "react-icons/bs"
+import {BsFillHandThumbsDownFill, BsMoonFill, BsQrCodeScan} from "react-icons/bs"
+import { BiCaretDown } from "react-icons/bi";
+import { TbBellFilled,TbWorld } from "react-icons/tb";
+import {IconContext} from "react-icons"
 const Navbar: React.FC = () => {
   const [isActive, setIsActive] = useState(false);
   const [isHidden, setIsHidden] = useState(false);
@@ -61,7 +64,7 @@ const Navbar: React.FC = () => {
             <li className="px-3 py-2  cursor-pointer hover:text-yellow-500 md:hidden">
               <FaSearch/>
             </li>
-            <li className="px-3 py-2 bg-yellow-500 cursor-pointer hover:opacity-80 rounded">
+            <li className="px-3 py-2 bg-yallow_300 cursor-pointer hover:opacity-80 rounded">
               Register
             </li>
             <li
@@ -74,9 +77,9 @@ const Navbar: React.FC = () => {
         </ul>
         {isActive && (
           <ul className="">
-            <li className="cursor-pointer hover:text-yellow-400 p-3 border">
+            <li className="cursor-pointer hover:text-yellow-400 p-3 border ">
               Buy Crypto
-              <BsFillHandThumbsDownFill width="50"/>
+              
             </li>
             <li className="cursor-pointer hover:text-yellow-400  p-3 border">
               Earn
@@ -109,14 +112,64 @@ const Navbar: React.FC = () => {
                 ></path>
               </svg>
             </li>
-            <li className="cursor-pointer hover:text-yellow-400">Buy Crypto</li>
-            <li className="cursor-pointer hover:text-yellow-400">Earn</li>
-            <li className="cursor-pointer hover:text-yellow-400">Trade</li>
+            <li className="cursor-pointer  flex items-center group">
+             <span className="hover:text-yellow-400">Buy Crypto</span> 
+              <span className="text-xs bg-yallow_500 ml-1 px-1 rounded-r-md rounded-l-3xl">Euro</span>
+              <IconContext.Provider
+                value={{ className:"transition-all translate group-hover:rotate-180 text-offwhite_100" }}
+                >
+              <BiCaretDown/>
+              </IconContext.Provider>
+              </li>
+            <li className="cursor-pointer hover:text-yellow-400 flex items-center group">
+              Earn
+              <IconContext.Provider
+                value={{ className:"transition-all translate group-hover:rotate-180 text-offwhite_100" }}
+                >
+              <BiCaretDown/>
+              </IconContext.Provider>
+            </li>
+            <li className="cursor-pointer hover:text-yellow-400 flex items-center group">
+              Trade
+              <IconContext.Provider
+                value={{ className:"transition-all translate group-hover:rotate-180 text-offwhite_100" }}
+                >
+              <BiCaretDown/>
+              </IconContext.Provider>
+              </li>
           </div>
           <div className="items-center flex gap-4">
             <li className="cursor-pointer hover:text-yellow-400">Login</li>
-            <li className="px-3 py-2 bg-yellow-500 cursor-pointer hover:opacity-80 rounded">
+            <li className="px-3 py-2 bg-yallow_300 cursor-pointer hover:opacity-80 rounded">
               Register
+            </li>
+            <li className="cursor-pointer hover:text-yellow-400">
+            <IconContext.Provider
+                value={{ className:"transition-all w-5" }}
+                >
+              <TbBellFilled/>
+              </IconContext.Provider>
+              </li>
+            <li className="cursor-pointer hover:text-yellow-400">
+            <IconContext.Provider
+                value={{ className:"transition-all w-5" }}
+                >
+              <BsQrCodeScan/>
+              </IconContext.Provider>
+            </li>
+            <li className="cursor-pointer hover:text-yellow-400">
+            <IconContext.Provider
+                value={{ className:"transition-all w-5" }}
+                >
+              <TbWorld/>
+              </IconContext.Provider>
+            </li>
+            <li className="cursor-pointer hover:text-yellow-400">
+            <IconContext.Provider
+                value={{ className:"transition-all w-5" }}
+                >
+            <BsMoonFill/>
+            </IconContext.Provider>
             </li>
           </div>
         </ul>

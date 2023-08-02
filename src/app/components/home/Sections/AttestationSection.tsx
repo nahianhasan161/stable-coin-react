@@ -16,17 +16,17 @@ export default function AttestationSection (props: IAppProps) {
           <div className="overflow-x-auto">
             <div className=" text-xl">
               <div className="flex gap-3">
-                <ul className="flex gap-12 ml-4 px-10">
-                  <li className="py-10 hover:bg-yallow_70 hover:text-yallow_150 rounded cursor-pointer ">
+                <ul className="flex gap-12 ml-4 px-10 mt-3">
+                  <li className="py-3 px-2 hover:bg-yallow_70 hover:text-yallow_150 rounded cursor-pointer ">
                     2020
                   </li>
-                  <li className="py-10 hover:bg-yallow_70 hover:text-yallow_150 rounded cursor-pointer">
+                  <li className="py-3 px-2 hover:bg-yallow_70 hover:text-yallow_150 rounded cursor-pointer">
                     2021
                   </li>
-                  <li className="py-10  hover:bg-yallow_70 hover:text-yallow_150 rounded cursor-pointer">
+                  <li className="py-3 px-2  hover:bg-yallow_70 hover:text-yallow_150 rounded cursor-pointer">
                     2022
                   </li>
-                  <li className="py-10  bg-yallow_70 text-yallow_150 rounded cursor-pointer">
+                  <li className="py-3 px-2  bg-yallow_70 text-yallow_150 rounded cursor-pointer">
                     2023
                   </li>
 

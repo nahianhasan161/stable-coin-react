@@ -23,11 +23,11 @@ const InfoCard: React.FC<InfoCardProps> = ({
     >
       <Image src={image} height={150} width={150} alt="icon" />
       <h1 className="text-xl font-medium leading-5">{title}</h1>
-      <span className="bg-yallow_60 py-2 px-3 text-yallow_80 text-xs leading-5">
+      <span className="bg-yallow_60 py-2 px-3 text-yallow_300 bg-yallow_70  text-xs leading-5">
         {btn}
       </span>
       <p className="text-sm leading-[20px] text-offwhite_100 ">{info}</p>
-      <span className="text-sm leading-[21px] text-yallow_80 font-medium ">
+      <span className="text-sm leading-[21px] text-yallow_400 cursor-pointer font-medium hover:opacity-80">
         {action}
       </span>
     </div>

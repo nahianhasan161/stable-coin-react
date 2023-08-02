@@ -190,7 +190,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
       {/* Icons section */}
-           <div className='mx-3 text-left mt-5 sm:mt-10 xl:hidden'>
+           <div className='mx-3 text-left mt-3 sm:mt-10 md:hidden'>
             <h1 className='text-xl'>Comunity</h1>
 
             <div className='flex gap-3'>

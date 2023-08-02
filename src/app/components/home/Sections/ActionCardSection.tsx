@@ -22,10 +22,10 @@ export default function ActionCardSection (props: IActionCardSectionProps) {
             <div
       className="relative m-5 sm:m-0 flex-1 px-5 py-10 border bg-white card-box-shadow flex flex-col gap-5 items-center max-w-[30rem]  whitespace-nowrap rounded-md  "
     >
-        <p className='bg-yallow_400 absolute text-xs rounded right-7 top-10 sm:top-5 px-2 py-1 '>Hot</p>
+        <p className='bg-yallow_300 absolute text-xs rounded right-7 top-10 sm:top-5 px-2 py-1 '>Hot</p>
       <Image src="/btcdollericon.png" height={150} width={150} alt="icon" />
       <h1 className="text-xl font-medium leading-5">Purchase With Fiat</h1>
-      <span className="bg-yallow_60 py-2 px-3 text-yallow_80 text-xs leading-5">
+      <span className="bg-yallow_60 py-2 px-3 text-yallow_400 bg-yallow_70 text-xs leading-5">
         0 Fees
       </span>
       <p className="text-sm leading-[20px] text-offwhite_100 whitespace-normal ">Purchase 1:1 with USD via wire transfer, or top up your Binance Spot Wallet with other currencies to exchange to BUSD.</p>
