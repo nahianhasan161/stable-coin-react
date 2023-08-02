@@ -32,7 +32,7 @@ const ContentCard: React.FC<ContentCardProps> = ({
         >
           <Image src={image} alt="Content_Image1" height={200} width={600} className='min-w-[15rem] sm:min-w-[24rem] ' />
         </div>
-        <div className={`${(imageOrderClass == "order-1") ? "order-2" : "" } col-span-6 max-w-[29rem] flex flex-col items-center justify-center`}>
+        <div className={`${(imageOrderClass == "order-1") ? "order-2" : "" } col-span-6 max-w-[29rem] flex flex-col items-center justify-center lg:order-none`}>
           <div>
             <HeadingTitleMd title={title} 
             className={titleClass}

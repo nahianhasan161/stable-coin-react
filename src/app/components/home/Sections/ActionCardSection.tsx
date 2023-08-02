@@ -20,7 +20,7 @@ export default function ActionCardSection (props: IActionCardSectionProps) {
             />
             
             <div
-      className="relative m-5 sm:m-0 flex-1 px-5 py-10 border bg-white card-box-shadow flex flex-col gap-5 items-center max-w-[30rem]  whitespace-nowrap rounded-md  "
+      className="relative m-5 sm:m-0 flex-1 px-5 py-3 border bg-white card-box-shadow flex flex-col gap-5 items-center max-w-[30rem]  whitespace-nowrap rounded-md  "
     >
         <p className='bg-yallow_300 absolute text-xs rounded right-7 top-10 sm:top-5 px-2 py-1 '>Hot</p>
       <Image src="/btcdollericon.png" height={150} width={150} alt="icon" />

@@ -7,7 +7,7 @@ export interface IQrCodeAreaProps {
 export default function QrCodeArea (props: IQrCodeAreaProps) {
   return (
     <>
-     <div className="absolute hidden group-hover:block  bg-white rounded-md mt-1 right-1 top-5 w-[200px] h-[250px] p-3 shadow-xl">
+     <div className="z-10 absolute hidden group-hover:block  bg-white rounded-md mt-1 right-1 top-5 w-[200px] h-[250px] p-3 shadow-xl">
                 <div className="flex p-1 justify-between items-center text-black w-full flex-col">
                   
                 

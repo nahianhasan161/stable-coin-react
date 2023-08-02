@@ -19,7 +19,7 @@ const InfoCard: React.FC<InfoCardProps> = ({
 }) => {
   return (
     <div
-      className={`${className} px-5 py-10 bg-offwhite_10 flex flex-col gap-5 items-center max-w-[30rem]  whitespace-nowrap `}
+      className={`${className} px-5 my-3 py-10 bg-offwhite_10 flex flex-col gap-5 items-center max-w-[30rem]  whitespace-nowrap `}
     >
       <Image src={image} height={150} width={150} alt="icon" />
       <h1 className="text-xl font-medium leading-5">{title}</h1>

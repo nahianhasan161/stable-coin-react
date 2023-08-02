@@ -1,14 +1,6 @@
-import TitlesSection from "./components/typography/TitlesSection";
-import InfoCard from "./components/card/InfoCard";
-import ContentCard from "./components/card/ContentCard";
-import HeadingTitle from "./components/typography/HeadingTitle";
-import HeadingTitleMd from "./components/typography/HeadingTitleMd";
-import { BiSolidDownload } from "react-icons/bi";
+
 import PopularCaseCard from "./components/card/PopularCaseCard";
-
 import BusdCard from "./components/home/BusdCard";
-
-import Image from "next/image";
 import LogoSlider from "./components/home/LogoSlider";
 import FaqSection from "./components/home/FaqSection";
 import MediaAssetsSection from "./components/home/Sections/MediaAssetsSection";
