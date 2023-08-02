@@ -8,7 +8,7 @@ const Hero = () => {
           <h1 className=" md:text-[42px] lg:text-[48] text-xl leading-[56px]  md:max-w-[40rem]">
             Welcome to Binance
           </h1>
-          <p className="leading-[24px] text-offwhite_100 text-xl mt-2">
+          <p className="leading-[24px] text-offwhite_100 text-xl mt-2 font-normal">
             At Binance, we believe that everyone should have the freedom to earn, hold, spend, share and give their money - no matter who you are or where you come from.
           </p>
         </div>
