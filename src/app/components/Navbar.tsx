@@ -11,10 +11,11 @@ import {IconContext} from "react-icons"
 const Navbar: React.FC = () => {
   const [isActive, setIsActive] = useState(false);
   const [isHidden, setIsHidden] = useState(false);
+  const [isDarkMode,setIsDarkMode] = useState(false)
   return (
     <div>
       {/* download smallnav */}
-     <div className={`${isHidden && "hidden"} md:hidden h-[60px] w-full bg-dark bg-[#292D32]`}>
+     <div className={`${isHidden && "hidden"}  md:hidden h-[60px] w-full bg-dark bg-[#292D32]`}>
         <ul className="flex p-1 justify-between items-center">
           <div className="flex gap-3">
 
@@ -79,6 +80,8 @@ const Navbar: React.FC = () => {
           <ul className="">
             <li className="cursor-pointer hover:text-yellow-400 p-3 border ">
               Buy Crypto
+
+              
               
             </li>
             <li className="cursor-pointer hover:text-yellow-400  p-3 border">
@@ -112,7 +115,7 @@ const Navbar: React.FC = () => {
                 ></path>
               </svg>
             </li>
-            <li className="cursor-pointer  flex items-center group">
+            <li className="cursor-pointer  flex items-center group relative">
              <span className="hover:text-yellow-400">Buy Crypto</span> 
               <span className="text-xs bg-yallow_500 ml-1 px-1 rounded-r-md rounded-l-3xl">Euro</span>
               <IconContext.Provider
@@ -120,22 +123,114 @@ const Navbar: React.FC = () => {
                 >
               <BiCaretDown/>
               </IconContext.Provider>
+              <ul className="absolute hidden group-hover:block  bg-white rounded-md mt-2 top-5 w-[400px] p-3 shadow-xl">
+                  <li className="px-3 py-1 hover:bg-yallow_70 flex gap-3 ">
+                    <Image src="/bank_icon.png" alt="icon" height={40} width={40} />
+
+                    <div className="space-y-3">
+                      <h1 className="text-black">Market OverView</h1>
+                      <p className="text-sm text-offwhite_100 space-y-2">Overview of the crypto market with realtive analatics</p>
+                    </div>
+
+                  </li>
+                  <li className="px-3 py-1 hover:bg-yallow_70 flex gap-3 ">
+                    <Image src="/bank_icon.png" alt="icon" height={40} width={40} />
+
+                    <div className="space-y-3">
+                      <h1 className="text-black">Market OverView</h1>
+                      <p className="text-sm text-offwhite_100 space-y-2">Overview of the crypto market with realtive analatics</p>
+                    </div>
+
+                  </li>
+                  <li className="px-3 py-1 hover:bg-yallow_70 flex gap-3 ">
+                    <Image src="/bank_icon.png" alt="icon" height={40} width={40} />
+
+                    <div className="space-y-3">
+                      <h1 className="text-black">Market OverView</h1>
+                      <p className="text-sm text-offwhite_100 space-y-2">Overview of the crypto market with realtive analatics</p>
+                    </div>
+
+                  </li>
+                  
+                </ul>
               </li>
-            <li className="cursor-pointer hover:text-yellow-400 flex items-center group">
+            <li className="cursor-pointer hover:text-yellow-400 flex items-center group relative">
               Earn
               <IconContext.Provider
                 value={{ className:"transition-all translate group-hover:rotate-180 text-offwhite_100" }}
                 >
               <BiCaretDown/>
               </IconContext.Provider>
+
+              <ul className="absolute hidden group-hover:block  bg-white rounded-md mt-2 top-5 w-[400px] p-3 shadow-xl">
+                  <li className="px-3 py-1 hover:bg-yallow_70 flex gap-3 ">
+                    <Image src="/bank_icon.png" alt="icon" height={40} width={40} />
+
+                    <div className="space-y-3">
+                      <h1 className="text-black">Market OverView</h1>
+                      <p className="text-sm text-offwhite_100 space-y-2">Overview of the crypto market with realtive analatics</p>
+                    </div>
+
+                  </li>
+                  <li className="px-3 py-1 hover:bg-yallow_70 flex gap-3 ">
+                    <Image src="/bank_icon.png" alt="icon" height={40} width={40} />
+
+                    <div className="space-y-3">
+                      <h1 className="text-black">Market OverView</h1>
+                      <p className="text-sm text-offwhite_100 space-y-2">Overview of the crypto market with realtive analatics</p>
+                    </div>
+
+                  </li>
+                  <li className="px-3 py-1 hover:bg-yallow_70 flex gap-3 ">
+                    <Image src="/bank_icon.png" alt="icon" height={40} width={40} />
+
+                    <div className="space-y-3">
+                      <h1 className="text-black">Market OverView</h1>
+                      <p className="text-sm text-offwhite_100 space-y-2">Overview of the crypto market with realtive analatics</p>
+                    </div>
+
+                  </li>
+                  
+                </ul>
             </li>
-            <li className="cursor-pointer hover:text-yellow-400 flex items-center group">
+            <li className="cursor-pointer hover:text-yellow-400 flex items-center group relative">
               Trade
               <IconContext.Provider
                 value={{ className:"transition-all translate group-hover:rotate-180 text-offwhite_100" }}
                 >
               <BiCaretDown/>
               </IconContext.Provider>
+
+              <ul className="absolute hidden group-hover:block  bg-white rounded-md mt-2 top-5 w-[400px] p-3 shadow-xl">
+                  <li className="px-3 py-1 hover:bg-yallow_70 flex gap-3 ">
+                    <Image src="/bank_icon.png" alt="icon" height={40} width={40} />
+
+                    <div className="space-y-3">
+                      <h1 className="text-black">Market OverView</h1>
+                      <p className="text-sm text-offwhite_100 space-y-2">Overview of the crypto market with realtive analatics</p>
+                    </div>
+
+                  </li>
+                  <li className="px-3 py-1 hover:bg-yallow_70 flex gap-3 ">
+                    <Image src="/bank_icon.png" alt="icon" height={40} width={40} />
+
+                    <div className="space-y-3">
+                      <h1 className="text-black">Market OverView</h1>
+                      <p className="text-sm text-offwhite_100 space-y-2">Overview of the crypto market with realtive analatics</p>
+                    </div>
+
+                  </li>
+                  <li className="px-3 py-1 hover:bg-yallow_70 flex gap-3 ">
+                    <Image src="/bank_icon.png" alt="icon" height={40} width={40} />
+
+                    <div className="space-y-3">
+                      <h1 className="text-black">Market OverView</h1>
+                      <p className="text-sm text-offwhite_100 space-y-2">Overview of the crypto market with realtive analatics</p>
+                    </div>
+
+                  </li>
+                  
+                </ul>
               </li>
           </div>
           <div className="items-center flex gap-4">
@@ -143,20 +238,47 @@ const Navbar: React.FC = () => {
             <li className="px-3 py-2 bg-yallow_300 cursor-pointer hover:opacity-80 rounded">
               Register
             </li>
-            <li className="cursor-pointer hover:text-yellow-400">
+            <li className="cursor-pointer hover:text-yellow-400 group relative">
+              {/* notification */}
             <IconContext.Provider
                 value={{ className:"transition-all w-5" }}
                 >
               <TbBellFilled/>
               </IconContext.Provider>
+
+              {/* hover area */}
+
+              <div className="absolute hidden group-hover:block  bg-white rounded-md mt-2 right-10 top-5 w-[400px] h-[250px] p-3 shadow-xl">
+                <div className="flex p-5 justify-between items-center text-black">
+                  <p>All Notifications</p>
+                  <p className="text-yallow_150">clear</p>
+                </div>
+                <div className="h-full">
+                <p className="text-center text-offwhite_100">No Notifications</p>
+                </div>
+              </div>
               </li>
-            <li className="cursor-pointer hover:text-yellow-400">
+              {/* qrcode */}
+            <li className="cursor-pointer hover:text-yellow-400 group relative">
             <IconContext.Provider
                 value={{ className:"transition-all w-5" }}
                 >
               <BsQrCodeScan/>
               </IconContext.Provider>
+
+
+              {/* hover area */}
+              <div className="absolute hidden group-hover:block  bg-white rounded-md mt-2 right-10 top-5 w-[400px] h-[250px] p-3 shadow-xl">
+                <div className="flex p-5 justify-between items-center text-black">
+                  <p>Scan QR Code</p>
+                  <p className="text-yallow_150">close</p>
+                </div>
+                <div className="h-full flex justify-center items-center">
+                <Image src="/logo/six.png" alt="qrcode" height={200} width={100}/>
+                </div>
+              </div>
             </li>
+            {/* language icon */}
             <li className="cursor-pointer hover:text-yellow-400">
             <IconContext.Provider
                 value={{ className:"transition-all w-5" }}
@@ -164,7 +286,9 @@ const Navbar: React.FC = () => {
               <TbWorld/>
               </IconContext.Provider>
             </li>
-            <li className="cursor-pointer hover:text-yellow-400">
+            <li className="cursor-pointer hover:text-yellow-400" 
+            onClick={()=>setIsDarkMode(!isDarkMode)}
+            >
             <IconContext.Provider
                 value={{ className:"transition-all w-5" }}
                 >

@@ -12,7 +12,9 @@ module.exports = {
         yallow_150:"#C99400",
         yallow_300:"#fcd53b",
         yallow_400:"#F0B90B",
-        yallow_500:"#FCD535" 
+        yallow_500:"#FCD535" ,
+
+        dark_300:"#181A20"
         
       },
       backgroundImage: {

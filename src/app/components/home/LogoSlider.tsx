@@ -295,7 +295,9 @@ const LogoSlider: React.FC = () => {
         
          
         </Marquee>
-        <p className='sm:hidden block cursor-pointer text-center text-yallow_400 hover:underline underline-yallow_400 whitespace-nowrap'>View More</p>
+          <p className='sm:hidden block cursor-pointer text-center mt-5 text-yallow_400 hover:underline underline-yallow_400 whitespace-nowrap'>
+          View More
+          </p>
           </div>
          
         </section>
