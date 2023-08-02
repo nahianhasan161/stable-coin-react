@@ -11,8 +11,8 @@ import BusdCard from "./components/home/BusdCard";
 import Image from "next/image";
 import LogoSlider from "./components/home/LogoSlider";
 import FaqSection from "./components/home/FaqSection";
-import MediaAssetsSection from "./components/home/MediaAssetsSection";
-import ContactUsSection from "./components/home/ContactUsSection";
+import MediaAssetsSection from "./components/home/Sections/MediaAssetsSection";
+import ContactUsSection from "./components/home/Sections/ContactUsSection";
 import AttestationSection from "./components/home/Sections/AttestationSection";
 import ReserveSection from "./components/home/Sections/ReserveSection";
 import WhyBusd from "./components/home/Sections/WhyBUSDSection";
@@ -20,10 +20,14 @@ import ActionCardSection from "./components/home/Sections/ActionCardSection";
 import BreakTitleSection from "./components/home/Sections/BreakTitleSection";
 import SectionOfTitles from "./components/home/Sections/SectionOfTitles";
 import LandingSection from "./components/home/Sections/LandingSection";
+import SideNav from "./components/Navbar/SideNav";
 export default function Home() {
   
   return (
     <main className=" min-h-screen bg-yallow_50 text-black_100 ">
+      <div>
+      {/* <SideNav/> */}
+      </div>
       <div>
        <LandingSection/>
         {/* Titles */}

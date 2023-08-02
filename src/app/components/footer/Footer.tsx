@@ -194,10 +194,11 @@ const Footer: React.FC = () => {
             <h1 className='text-xl'>Comunity</h1>
 
             <div className='flex gap-3'>
-              <span className='rounded-full'>
+              
+                  
 
                   <TiSocialYoutube size="30px" />
-              </span>
+
             
             
                   

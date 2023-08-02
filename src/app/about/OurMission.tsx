@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../components/button/Button";
+import HeadingTitle from "../components/typography/HeadingTitle";
 
 
 const OurMission = () => {
@@ -7,9 +8,11 @@ const OurMission = () => {
     <nav className="text-sm mt-10 px-10" >
       <div className="flex items-center gap-3 md:p-10  ">
         <div className=" font-semibold pb-10">
-          <h1 className="text-[56px] leading-[72px]  md:max-w-[40rem]">
-            Our Mission
-          </h1>
+          <HeadingTitle
+          title="Our Mission"
+          noLink={true}
+          />
+          
 
           <p className="font-normal text-offwhite_100 text-xl mt-2 mb-10">
             At Binance, we believe that everyone should have the freedom to

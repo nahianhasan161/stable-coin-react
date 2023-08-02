@@ -21,7 +21,7 @@ export default function LandingSection (props: ILandingSectionProps) {
             </p>
           </div>
         </div>
-        <div className="block sm:hidden p-8 mt-[-6rem]">
+        <div className="block sm:hidden p-8 ">
         {/* small screan */}
           <div className="  font-semibold pb-10 md:px-10 xl:mt-[5rem] lg:mt-[3rem]">
             <h1 className=" lg:text-[56px] md:text-3xl text-2xl sm:leading-[72px]  md:max-w-[40rem] ">

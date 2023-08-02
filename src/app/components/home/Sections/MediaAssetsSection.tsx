@@ -1,6 +1,6 @@
 import * as React from 'react';
-import HeadingTitle from '../typography/HeadingTitle';
-import LinkSpan from "../typography/LinkSpan"
+import HeadingTitle from '../../typography/HeadingTitle';
+import LinkSpan from "../../typography/LinkSpan"
 export interface IAppProps {
     title:string,
     description:string,
